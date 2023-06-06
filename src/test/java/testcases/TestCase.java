@@ -17,13 +17,15 @@ public class TestCase {
 
         driver.get("https://ttrsonline.com/Account/LogOn");
         driver.manage().window().maximize();
+
         try {
-            TimeUnit.SECONDS.sleep(5); // Задержка в 5 секунду
+            TimeUnit.SECONDS.sleep(5); // Задержка в 5 секунд  -  by chat GPT
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
         driver.close();
+        System.out.println("First HW  +  a small part of out-of-class work");
 
     }
 }
