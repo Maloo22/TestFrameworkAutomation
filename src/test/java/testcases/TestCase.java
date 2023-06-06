@@ -18,11 +18,11 @@ public class TestCase {
         driver.get("https://ttrsonline.com/Account/LogOn");
         driver.manage().window().maximize();
 
-        try {
-            TimeUnit.SECONDS.sleep(5); // Задержка в 5 секунд  -  by chat GPT
+        try {                                           // 5 sec hold  -  by chat GPT  -  from here
+            TimeUnit.SECONDS.sleep(5);
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }                                               // 5 sec hold  -  by chat GPT  -  to here
 
         driver.close();
         System.out.println("First HW  +  a small part of out-of-class work");

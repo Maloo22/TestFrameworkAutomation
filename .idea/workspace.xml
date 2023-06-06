@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="First HW  +  a small part of out-of-class work">
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/TestCase.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +46,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685965771843</updated>
-      <workItem from="1685965773307" duration="2709000" />
+      <workItem from="1685965773307" duration="3055000" />
     </task>
+    <task id="LOCAL-00001" summary="First HW  +  a small part of out-of-class work">
+      <created>1686076806949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686076806949</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First HW  +  a small part of out-of-class work" />
+    <option name="LAST_COMMIT_MESSAGE" value="First HW  +  a small part of out-of-class work" />
   </component>
 </project>
