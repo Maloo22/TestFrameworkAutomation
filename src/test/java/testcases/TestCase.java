@@ -1,5 +1,7 @@
 package testcases;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
@@ -9,23 +11,51 @@ import java.util.concurrent.TimeUnit;
 public class TestCase {
 
     @Test
-    public void startBrowser() {
+    public void startBrowser() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Andrew\\IdeaProjects\\automationCourse\\src\\test\\resources\\chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         ChromeDriver driver = new ChromeDriver(options);
 
-        driver.get("https://ttrsonline.com/Account/LogOn");
+
+        // Open website + full screen
+        driver.get("https://test.my-fork.com/");
         driver.manage().window().maximize();
+        // Open Sign In page using corresponding button on main page
+        driver.findElement(By.xpath("//a[@class='menu-item log-in-button']")).click();
 
-        try {                                           // 5 sec hold  -  by chat GPT  -  from here
-            TimeUnit.SECONDS.sleep(5);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }                                               // 5 sec hold  -  by chat GPT  -  to here
 
+
+        // Validate that Email field, Password field and Login button are displayed on Sign In page
+        System.out.println("Email Field is ...  " + driver.findElement(By.xpath("//input[@id='email']")).isDisplayed());
+        System.out.println("Password Field is ... " + driver.findElement(By.xpath("//input[@id='password']")).isDisplayed());
+        System.out.println("Log in page is ... " + driver.findElement(By.xpath("//button[contains(text(),'Log In')]")).isDisplayed());
+
+
+
+        // Enter invalid email and password in corresponding fields and click Log In button
+        driver.findElement(By.xpath("//input[@id='email']")).sendKeys("wrongEmail@gmail.com");
+        driver.findElement(By.xpath("//input[@id='password']")).sendKeys("123qwerty");
+        driver.findElement(By.xpath("//button[contains(text(),'Log In')]")).sendKeys(Keys.ENTER);
+
+
+
+        // Validate error is appeared after invalid email and password in corresponding fields and Log In button clicked
+        Thread.sleep(5000);
+        System.out.println("Incorrect email sign is ... " + driver.findElement(By.xpath("//p[contains(text(),'Error: email is incorrect')]")).isDisplayed());
+
+        //Validate that Remember Me checkbox is checked by default
+        System.out.println("checkbox is ... " + driver.findElement(By.xpath("//input[@id='auth-page-remember-me']")).isSelected());
+
+
+        Thread.sleep(5000);
         driver.close();
-        System.out.println("First HW  +  a small part of out-of-class work");
 
     }
+
+
+
+
+
+
 }
