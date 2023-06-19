@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="HW 4b" />
+    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="HW 4b">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/TestCase.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -44,7 +49,12 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TestCase.startBrowser">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="testcases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestCase">
     <configuration name="TestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <extension name="coverage">
@@ -80,10 +90,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCase.startBrowser1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestCase" />
+      <option name="METHOD_NAME" value="startBrowser1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCase.validateInputError5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestCase" />
+      <option name="METHOD_NAME" value="validateInputError5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestCase.startBrowser" />
         <item itemvalue="TestNG.TestCase" />
+        <item itemvalue="TestNG.TestCase.validateInputError5" />
+        <item itemvalue="TestNG.TestCase.startBrowser1" />
+        <item itemvalue="TestNG.TestCase.startBrowser" />
       </list>
     </recent_temporary>
   </component>
@@ -99,6 +147,7 @@
       <workItem from="1687001772793" duration="1562000" />
       <workItem from="1687003412444" duration="4648000" />
       <workItem from="1687019460260" duration="4745000" />
+      <workItem from="1687195561061" duration="3350000" />
     </task>
     <task id="LOCAL-00001" summary="First HW  +  a small part of out-of-class work">
       <created>1686076806949</created>
