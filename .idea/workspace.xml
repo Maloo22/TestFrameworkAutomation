@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="HW 4b_v2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/Automation_Java.java" afterDir="false" />
+    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="HW 5c">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/HW_6c.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Automation_Selenium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/TestCase.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <recent name="testcases" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="TestNG.HW_6c">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="automationCourse" />
@@ -70,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Automation_Selenium" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HW_6c" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <extension name="coverage">
         <pattern>
@@ -79,7 +79,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+      <option name="MAIN_CLASS_NAME" value="testcases.HW_6c" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -87,7 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Automation_Selenium.startBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HW_6c.taskOne" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +96,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
-      <option name="METHOD_NAME" value="startBrowser" />
+      <option name="MAIN_CLASS_NAME" value="testcases.HW_6c" />
+      <option name="METHOD_NAME" value="taskOne" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Automation_Selenium.startBrowser1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HW_6c.taskThree" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +114,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
-      <option name="METHOD_NAME" value="startBrowser1" />
+      <option name="MAIN_CLASS_NAME" value="testcases.HW_6c" />
+      <option name="METHOD_NAME" value="taskThree" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,7 +123,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Automation_Selenium.validateInputError5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HW_6c.taskTwo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +132,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
-      <option name="METHOD_NAME" value="validateInputError5" />
+      <option name="MAIN_CLASS_NAME" value="testcases.HW_6c" />
+      <option name="METHOD_NAME" value="taskTwo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HW_6c" />
+        <item itemvalue="TestNG.HW_6c.taskThree" />
+        <item itemvalue="TestNG.HW_6c.taskTwo" />
+        <item itemvalue="TestNG.HW_6c.taskOne" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="TestNG.Automation_Selenium" />
-        <item itemvalue="TestNG.Automation_Selenium.validateInputError5" />
-        <item itemvalue="TestNG.Automation_Selenium.startBrowser1" />
-        <item itemvalue="TestNG.Automation_Selenium.startBrowser" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +165,8 @@
       <workItem from="1687019460260" duration="4745000" />
       <workItem from="1687195561061" duration="4458000" />
       <workItem from="1687276499323" duration="4523000" />
-      <workItem from="1687282173197" duration="673000" />
+      <workItem from="1687282173197" duration="1194000" />
+      <workItem from="1687287650559" duration="8533000" />
     </task>
     <task id="LOCAL-00001" summary="First HW  +  a small part of out-of-class work">
       <created>1686076806949</created>
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687199005570</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW 5c">
+      <created>1687282956101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687282956101</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,11 +212,27 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First HW  +  a small part of out-of-class work" />
     <MESSAGE value="HW 4b" />
     <MESSAGE value="HW 4b_v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 4b_v2" />
+    <MESSAGE value="HW 5c" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 5c" />
   </component>
 </project>

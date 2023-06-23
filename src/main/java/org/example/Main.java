@@ -1,6 +1,9 @@
 package org.example;
 
 
+import java.sql.Date;
+import java.sql.Time;
+import java.sql.Timestamp;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,6 +27,7 @@ public class Main {
         String prodName = "three-wheeled children's bicycle";
         double price = 100500.99;
         String currency = "Yen";
+
 
         System.out.println("Dear "+ customerName +", since you are "+customerAge+" years old today and an honorary resident of Madagascar, you are entitled to a prize in the form of a "+prodName+". ");
         System.out.println("You can pick it up at our drop-off point on the planet Mars, "+distance+" kilometers north of "+placeToGet+". You can get it absolutely free, for only "+price+" Martian "+currency+". The landmark is the NASA Curiosity rover stuck in the sands.");
@@ -57,8 +61,6 @@ public class Main {
         System.out.println(one + two);
         System.out.println(three / (9 * first));
         System.out.println(Math.floor(four * (fourth + 4) - (second + two)));
-
-
 
 
 
