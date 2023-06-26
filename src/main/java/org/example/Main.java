@@ -29,8 +29,8 @@ public class Main {
         String currency = "Yen";
 
 
-        System.out.println("Dear "+ customerName +", since you are "+customerAge+" years old today and an honorary resident of Madagascar, you are entitled to a prize in the form of a "+prodName+". ");
-        System.out.println("You can pick it up at our drop-off point on the planet Mars, "+distance+" kilometers north of "+placeToGet+". You can get it absolutely free, for only "+price+" Martian "+currency+". The landmark is the NASA Curiosity rover stuck in the sands.");
+        System.out.println("Dear "+ customerName +", since you are "+ customerAge +" years old today and an honorary resident of Madagascar, you are entitled to a prize in the form of a "+ prodName +". ");
+        System.out.println("You can pick it up at our drop-off point on the planet Mars, "+ distance +" kilometers north of "+ placeToGet +". You can get it absolutely free, for only "+ price +" Martian "+ currency +". The landmark is the NASA Curiosity rover stuck in the sands.");
 
 
 
