@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="First HW  +  a small part of out-of-class work">
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TestCase.java" afterDir="false" />
+=======
+    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="week4RefactoringPlusIncapsul">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Automation_Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Automation_Selenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Locators.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +44,116 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Andrew/Documents/GitHub/TestFrameworkAutomation"
   }
+<<<<<<< Updated upstream
 }]]></component>
+=======
+}</project>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="testcases" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Automation_Selenium">
+    <configuration name="Automation_Selenium" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automation_Selenium.chackboxIsChaced6" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+      <option name="METHOD_NAME" value="chackboxIsChaced6" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automation_Selenium.enterInvalidData4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+      <option name="METHOD_NAME" value="enterInvalidData4" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automation_Selenium.validateElements3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+      <option name="METHOD_NAME" value="validateElements3" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automation_Selenium.validateInputError5" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+      <option name="METHOD_NAME" value="validateInputError5" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Automation_Selenium" />
+        <item itemvalue="TestNG.Automation_Selenium.validateElements3" />
+        <item itemvalue="TestNG.Automation_Selenium.validateInputError5" />
+        <item itemvalue="TestNG.Automation_Selenium.chackboxIsChaced6" />
+        <item itemvalue="TestNG.Automation_Selenium.enterInvalidData4" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> Stashed changes
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,7 +162,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685965771843</updated>
+<<<<<<< Updated upstream
       <workItem from="1685965773307" duration="3055000" />
+=======
+      <workItem from="1685965773307" duration="12588000" />
+      <workItem from="1687001772793" duration="1562000" />
+      <workItem from="1687003412444" duration="4648000" />
+      <workItem from="1687019460260" duration="4745000" />
+      <workItem from="1687195561061" duration="4458000" />
+      <workItem from="1687276499323" duration="4523000" />
+      <workItem from="1687282173197" duration="1194000" />
+      <workItem from="1687287650559" duration="9513000" />
+      <workItem from="1687623796285" duration="111000" />
+      <workItem from="1687704439480" duration="1596000" />
+      <workItem from="1687723193753" duration="9775000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="First HW  +  a small part of out-of-class work">
       <created>1686076806949</created>
@@ -55,7 +185,46 @@
       <option name="project" value="LOCAL" />
       <updated>1686076806949</updated>
     </task>
+<<<<<<< Updated upstream
     <option name="localTasksCounter" value="2" />
+=======
+    <task id="LOCAL-00002" summary="HW 4b">
+      <created>1687024144113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687024144113</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HW 4b_v2">
+      <created>1687199005570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687199005570</updated>
+    </task>
+    <task id="LOCAL-00004" summary="HW 5c">
+      <created>1687282956101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687282956101</updated>
+    </task>
+    <task id="LOCAL-00005" summary="HW 5c">
+      <created>1687529720934</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687529720934</updated>
+    </task>
+    <task id="LOCAL-00006" summary="week4RefactoringPlusIncapsul">
+      <created>1687802591105</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687802591105</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,6 +233,17 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="8e138b29-2b06-43ca-a47c-fe686dd3dd5a">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -71,9 +251,41 @@
         </entry>
       </map>
     </option>
+<<<<<<< Updated upstream
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First HW  +  a small part of out-of-class work" />
     <option name="LAST_COMMIT_MESSAGE" value="First HW  +  a small part of out-of-class work" />
+=======
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="8e138b29-2b06-43ca-a47c-fe686dd3dd5a" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First HW  +  a small part of out-of-class work" />
+    <MESSAGE value="HW 4b" />
+    <MESSAGE value="HW 4b_v2" />
+    <MESSAGE value="HW 5c" />
+    <MESSAGE value="HW 6c" />
+    <MESSAGE value="week4RefactoringPlusIncapsul" />
+    <option name="LAST_COMMIT_MESSAGE" value="week4RefactoringPlusIncapsul" />
+>>>>>>> Stashed changes
   </component>
 </project>

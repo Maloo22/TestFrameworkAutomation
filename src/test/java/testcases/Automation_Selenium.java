@@ -52,6 +52,12 @@ public class Automation_Selenium {
         driver.findElement(By.xpath(signInBtn)).click();
     }
 
+    public void validEmailPassLogAreDisp() throws InterruptedException {
+        System.out.println("Email Field is ...  " + driver.findElement(By.xpath(emailField)).isDisplayed());
+        System.out.println("Password Field is ... " + driver.findElement(By.xpath(passwordField)).isDisplayed());
+        System.out.println("Log in page is ... " + driver.findElement(By.xpath(logInBtn)).isDisplayed());
+    }
+
     @Test
     public void validateElements3() throws InterruptedException {
         takeMeToSignInPage();
@@ -60,9 +66,7 @@ public class Automation_Selenium {
         signInButton2();
 
         // Validate that Email field, Password field and Login button are displayed on Sign In page
-        System.out.println("Email Field is ...  " + driver.findElement(By.xpath(emailField)).isDisplayed());
-        System.out.println("Password Field is ... " + driver.findElement(By.xpath(passwordField)).isDisplayed());
-        System.out.println("Log in page is ... " + driver.findElement(By.xpath(logInBtn)).isDisplayed());
+        validEmailPassLogAreDisp();
     }
 
     public void fillCredentials (String email, String password){
@@ -78,9 +82,7 @@ public class Automation_Selenium {
         driver.findElement(By.xpath(signInBtn)).click();
 
         // Validate that Email field, Password field and Login button are displayed on Sign In page
-        System.out.println("Email Field is ...  " + driver.findElement(By.xpath(emailField)).isDisplayed());
-        System.out.println("Password Field is ... " + driver.findElement(By.xpath(passwordField)).isDisplayed());
-        System.out.println("Log in page is ... " + driver.findElement(By.xpath(logInBtn)).isDisplayed());
+        validEmailPassLogAreDisp();
 
         // Enter invalid email and password in corresponding fields and click Log In button
         fillCredentials("wrongEmail1@gmail.com", "123qwerty1");
@@ -96,9 +98,7 @@ public class Automation_Selenium {
         driver.findElement(By.xpath(signInBtn)).click();
 
         // Validate that Email field, Password field and Login button are displayed on Sign In page
-        System.out.println("Email Field is ...  " + driver.findElement(By.xpath(emailField)).isDisplayed());
-        System.out.println("Password Field is ... " + driver.findElement(By.xpath(passwordField)).isDisplayed());
-        System.out.println("Log in page is ... " + driver.findElement(By.xpath(logInBtn)).isDisplayed());
+        validEmailPassLogAreDisp();
 
         // Enter invalid email and password in corresponding fields and click Log In button
         fillCredentials("wrongEmail2@gmail.com", "123qwerty2");
@@ -117,9 +117,7 @@ public class Automation_Selenium {
         driver.findElement(By.xpath(signInBtn)).click();
 
         // Validate that Email field, Password field and Login button are displayed on Sign In page
-        System.out.println("Email Field is ...  " + driver.findElement(By.xpath(emailField)).isDisplayed());
-        System.out.println("Password Field is ... " + driver.findElement(By.xpath(passwordField)).isDisplayed());
-        System.out.println("Log in page is ... " + driver.findElement(By.xpath(logInBtn)).isDisplayed());
+        validEmailPassLogAreDisp();
 
         // Enter invalid email and password in corresponding fields and click Log In button
         fillCredentials("wrongEmail3@gmail.com", "123qwerty3");
