@@ -129,5 +129,6 @@ public class Automation_Selenium {
 
         //Validate that Remember Me checkbox is checked by default
         System.out.println("checkbox is ... " + driver.findElement(By.xpath(checkbox)).isSelected());
+
     }
 }

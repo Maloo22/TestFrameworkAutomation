@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="HW_7c_Java_OOP">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="HW_7c_Java_OOP_v2">
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Automation_Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Automation_Selenium.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686076806949</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HW_7c_Java_OOP_v2">
+      <created>1687808176451</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687808176451</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HW_7c_Java_OOP_v2">
+      <created>1687808216825</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687808216825</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +103,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="8e138b29-2b06-43ca-a47c-fe686dd3dd5a">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -100,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First HW  +  a small part of out-of-class work" />
-    <option name="LAST_COMMIT_MESSAGE" value="First HW  +  a small part of out-of-class work" />
+    <MESSAGE value="HW_7c_Java_OOP_v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_7c_Java_OOP_v2" />
   </component>
 </project>
