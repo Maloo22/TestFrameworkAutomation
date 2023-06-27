@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="HW_7c_Java_OOP_v2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Automation_Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Automation_Selenium.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685965771843</updated>
       <workItem from="1685965773307" duration="3055000" />
+      <workItem from="1687886249237" duration="865000" />
     </task>
     <task id="LOCAL-00001" summary="First HW  +  a small part of out-of-class work">
       <created>1686076806949</created>
