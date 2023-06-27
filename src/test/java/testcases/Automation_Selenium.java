@@ -35,7 +35,10 @@ public class Automation_Selenium {
         driver.manage().window().maximize();
     }
 
-
+    public void fillCredentials (String email, String password){
+        driver.findElement(By.xpath(emailField)).sendKeys("email");
+        driver.findElement(By.xpath(passwordField)).sendKeys("password");
+    }
 
     @Test
     public void startBrowser1() throws InterruptedException {
@@ -65,11 +68,6 @@ public class Automation_Selenium {
         validEmailPassFieldsAndLogInBtnIsDispl();
     }
 
-    public void fillCredentials (String email, String password){
-        driver.findElement(By.xpath(emailField)).sendKeys("email");
-        driver.findElement(By.xpath(passwordField)).sendKeys("password");
-    }
-
     @Test
     public void enterInvalidData4() throws InterruptedException {
         takeMeToSignInPage();
@@ -84,7 +82,6 @@ public class Automation_Selenium {
         fillCredentials("wrongEmail1@gmail.com", "123qwerty1");
         driver.findElement(By.xpath(logInBtn)).sendKeys(Keys.ENTER);
     }
-
 
     @Test
     public void validateInputError5() throws InterruptedException {
@@ -127,11 +124,10 @@ public class Automation_Selenium {
         System.out.println("checkbox is ... " + driver.findElement(By.xpath(checkbox)).isSelected());
 
     }
+
     @AfterMethod
     public void closeBrowser() throws InterruptedException {
         Thread.sleep(1000);
         driver.close();
     }
-
-
 }
