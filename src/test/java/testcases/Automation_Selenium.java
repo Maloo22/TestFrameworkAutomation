@@ -8,11 +8,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class Automation_Selenium {
+public class Automation_Selenium extends BaseTest {
 
-    public ChromeDriver driver;
+    //locators
     public String WebsiteURL = "https://test.my-fork.com/";
-    //public Locators locators = new Locators(); - подвязка файла с локаторами
+    //public Locators locators = new Locators(); - подвязка другого файла с локаторами
     public String emailField = "//input[@id='email']";
     public String passwordField = "//input[@id='password']";
     public String signInBtn = "//a[@class='menu-item log-in-button']";
@@ -21,13 +21,11 @@ public class Automation_Selenium {
     public String validMessDisp = "//div[@class='test-login-errors']";
     public String checkbox = "//input[@id='auth-page-remember-me']";
 
-    @BeforeMethod
-    public void startAndFullScreen () throws InterruptedException{
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Andrew\\IdeaProjects\\automationCourse\\src\\test\\resources\\chromedriver.exe");
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--remote-allow-origins=*");
-        driver = new ChromeDriver(options);
-    }
+    public String emailValue = "efimovich@gmail.com";
+    public String passwordValue = "password";
+
+
+
 
     public void takeMeToSignInPage(){
         // Open website + full screen
@@ -35,10 +33,6 @@ public class Automation_Selenium {
         driver.manage().window().maximize();
     }
 
-    public void fillCredentials (String email, String password){
-        driver.findElement(By.xpath(emailField)).sendKeys("email");
-        driver.findElement(By.xpath(passwordField)).sendKeys("password");
-    }
 
     @Test
     public void startBrowser1() throws InterruptedException {
@@ -55,6 +49,11 @@ public class Automation_Selenium {
     System.out.println("Email Field is ...  " + driver.findElement(By.xpath(emailField)).isDisplayed());
     System.out.println("Password Field is ... " + driver.findElement(By.xpath(passwordField)).isDisplayed());
     System.out.println("Log in page is ... " + driver.findElement(By.xpath(logInBtn)).isDisplayed());
+    }
+
+    public void fillCredentials (String email, String password){
+        driver.findElement(By.xpath(emailField)).sendKeys(emailValue);
+        driver.findElement(By.xpath(passwordField)).sendKeys(passwordValue);
     }
 
     @Test
@@ -79,7 +78,7 @@ public class Automation_Selenium {
         validEmailPassFieldsAndLogInBtnIsDispl();
 
         // Enter invalid email and password in corresponding fields and click Log In button
-        fillCredentials("wrongEmail1@gmail.com", "123qwerty1");
+        fillCredentials(emailValue,passwordValue);
         driver.findElement(By.xpath(logInBtn)).sendKeys(Keys.ENTER);
     }
 
@@ -94,7 +93,7 @@ public class Automation_Selenium {
         validEmailPassFieldsAndLogInBtnIsDispl();
 
         // Enter invalid email and password in corresponding fields and click Log In button
-        fillCredentials("wrongEmail2@gmail.com", "123qwerty2");
+        fillCredentials(emailValue,passwordValue);
         driver.findElement(By.xpath(logInBtn)).sendKeys(Keys.ENTER);
 
         // Validate error is appeared after invalid email and password in corresponding fields and Log In button clicked
@@ -113,7 +112,7 @@ public class Automation_Selenium {
         validEmailPassFieldsAndLogInBtnIsDispl();
 
         // Enter invalid email and password in corresponding fields and click Log In button
-        fillCredentials("wrongEmail3@gmail.com", "123qwerty3");
+        fillCredentials(emailValue,passwordValue);
         driver.findElement(By.xpath(logInBtn)).sendKeys(Keys.ENTER);
 
         // Validate error is appeared after invalid email and password in corresponding fields and Log In button clicked
@@ -125,9 +124,5 @@ public class Automation_Selenium {
 
     }
 
-    @AfterMethod
-    public void closeBrowser() throws InterruptedException {
-        Thread.sleep(1000);
-        driver.close();
-    }
+
 }
