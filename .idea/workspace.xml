@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="HW_7c_Java_OOP_v3.1">
+    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="HW_7c_Java_OOP_v3.2">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/BaseMain.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SignInPage.java" afterDir="false" />
@@ -12,7 +13,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Automation_Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Automation_Selenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestCase.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/Automation_Selenium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/Automation_Selenium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/TestCase.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Andrew/Documents/GitHub/TestFrameworkAutomation&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Andrew/Documents/GitHub/TestFrameworkAutomation"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.Automation_Selenium.enterInvalidData4">
+}]]></component>
+  <component name="RunManager" selected="TestNG.Automation_Selenium">
     <configuration name="Automation_Selenium" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <extension name="coverage">
@@ -71,7 +76,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Automation_Selenium.enterInvalidData4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Automation_Selenium.NewTestOne" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automationCourse" />
       <extension name="coverage">
         <pattern>
@@ -81,7 +86,61 @@
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
       <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
-      <option name="METHOD_NAME" value="enterInvalidData4" />
+      <option name="METHOD_NAME" value="NewTestOne" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automation_Selenium.NewTestTwo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+      <option name="METHOD_NAME" value="NewTestTwo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automation_Selenium.errorMassageOnAfterInputOnSingInPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+      <option name="METHOD_NAME" value="errorMassageOnAfterInputOnSingInPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automation_Selenium.validateCheckbox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automationCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+      <option name="METHOD_NAME" value="validateCheckbox" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -91,8 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Automation_Selenium.enterInvalidData4" />
         <item itemvalue="TestNG.Automation_Selenium" />
+        <item itemvalue="TestNG.Automation_Selenium.validateCheckbox" />
+        <item itemvalue="TestNG.Automation_Selenium.errorMassageOnAfterInputOnSingInPage" />
+        <item itemvalue="TestNG.Automation_Selenium.NewTestOne" />
+        <item itemvalue="TestNG.Automation_Selenium.NewTestTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -106,7 +168,8 @@
       <updated>1685965771843</updated>
       <workItem from="1685965773307" duration="3055000" />
       <workItem from="1687886249237" duration="1917000" />
-      <workItem from="1687958224420" duration="4863000" />
+      <workItem from="1687958224420" duration="9111000" />
+      <workItem from="1688117919028" duration="13954000" />
     </task>
     <task id="LOCAL-00001" summary="First HW  +  a small part of out-of-class work">
       <created>1686076806949</created>
@@ -143,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687887474208</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HW_7c_Java_OOP_v3.2">
+      <created>1688028593382</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688028593382</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +240,7 @@
     <MESSAGE value="HW_7c_Java_OOP_v2" />
     <MESSAGE value="HW_7c_Java_OOP_v3" />
     <MESSAGE value="HW_7c_Java_OOP_v3.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW_7c_Java_OOP_v3.1" />
+    <MESSAGE value="HW_7c_Java_OOP_v3.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW_7c_Java_OOP_v3.2" />
   </component>
 </project>
