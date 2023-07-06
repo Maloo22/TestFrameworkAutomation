@@ -1,0 +1,323 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,19 +4,13 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="HW_7c_Java_OOP_v3.2">
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/BaseMain.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SignInPage.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/BaseTest.java" afterDir="false" />
++    <list default="true" id="cd02e465-1d81-4c4d-a578-d4aaf62d77e0" name="Changes" comment="Week_4_Less_8b_RefactoringUsing_JavaOOP_v1.0">
++      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SignUpPage.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/validDrpDwnTCntntTest.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/Automation_Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/Automation_Selenium.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TestCase.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/Automation_Selenium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/Automation_Selenium.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/TestCase.class" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/SignInPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SignInPage.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/BaseTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -49,16 +43,16 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "last_opened_file_path": "C:/Users/Andrew/Documents/GitHub/TestFrameworkAutomation"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/Andrew/Documents/GitHub/TestFrameworkAutomation&quot;
+   }
+-}]]></component>
+-  <component name="RunManager" selected="TestNG.Automation_Selenium">
++}</component>
++  <component name="RunManager" selected="TestNG.validDrpDwnTCntntTest.dropdownOptions">
+     <configuration name="Automation_Selenium" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="automationCourse" />
+       <extension name="coverage">
+@@ -76,7 +70,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Automation_Selenium.NewTestOne" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="Automation_Selenium.validateCheckbox" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="automationCourse" />
+       <extension name="coverage">
+         <pattern>
+@@ -86,7 +80,7 @@
+       </extension>
+       <option name="PACKAGE_NAME" value="testcases" />
+       <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+-      <option name="METHOD_NAME" value="NewTestOne" />
++      <option name="METHOD_NAME" value="validateCheckbox" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -94,7 +88,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Automation_Selenium.NewTestTwo" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="validDrpDwnTCntntTest.dropDown" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="automationCourse" />
+       <extension name="coverage">
+         <pattern>
+@@ -103,8 +97,8 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="testcases" />
+-      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+-      <option name="METHOD_NAME" value="NewTestTwo" />
++      <option name="MAIN_CLASS_NAME" value="testcases.validDrpDwnTCntntTest" />
++      <option name="METHOD_NAME" value="dropDown" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -112,7 +106,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Automation_Selenium.errorMassageOnAfterInputOnSingInPage" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="validDrpDwnTCntntTest.dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="automationCourse" />
+       <extension name="coverage">
+         <pattern>
+@@ -121,8 +115,8 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="testcases" />
+-      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+-      <option name="METHOD_NAME" value="errorMassageOnAfterInputOnSingInPage" />
++      <option name="MAIN_CLASS_NAME" value="testcases.validDrpDwnTCntntTest" />
++      <option name="METHOD_NAME" value="dropdown" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -130,7 +124,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Automation_Selenium.validateCheckbox" type="TestNG" temporary="true" nameIsGenerated="true">
++    <configuration name="validDrpDwnTCntntTest.dropdownOptions" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="automationCourse" />
+       <extension name="coverage">
+         <pattern>
+@@ -139,8 +133,8 @@
+         </pattern>
+       </extension>
+       <option name="PACKAGE_NAME" value="testcases" />
+-      <option name="MAIN_CLASS_NAME" value="testcases.Automation_Selenium" />
+-      <option name="METHOD_NAME" value="validateCheckbox" />
++      <option name="MAIN_CLASS_NAME" value="testcases.validDrpDwnTCntntTest" />
++      <option name="METHOD_NAME" value="dropdownOptions" />
+       <option name="TEST_OBJECT" value="METHOD" />
+       <properties />
+       <listeners />
+@@ -150,11 +144,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="TestNG.validDrpDwnTCntntTest.dropdownOptions" />
++        <item itemvalue="TestNG.validDrpDwnTCntntTest.dropdown" />
++        <item itemvalue="TestNG.validDrpDwnTCntntTest.dropDown" />
+         <item itemvalue="TestNG.Automation_Selenium" />
+         <item itemvalue="TestNG.Automation_Selenium.validateCheckbox" />
+-        <item itemvalue="TestNG.Automation_Selenium.errorMassageOnAfterInputOnSingInPage" />
+-        <item itemvalue="TestNG.Automation_Selenium.NewTestOne" />
+-        <item itemvalue="TestNG.Automation_Selenium.NewTestTwo" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -169,7 +163,8 @@
+       <workItem from="1685965773307" duration="3055000" />
+       <workItem from="1687886249237" duration="1917000" />
+       <workItem from="1687958224420" duration="9111000" />
+-      <workItem from="1688117919028" duration="13954000" />
++      <workItem from="1688117919028" duration="14272000" />
++      <workItem from="1688660253578" duration="4939000" />
+     </task>
+     <task id="LOCAL-00001" summary="First HW  +  a small part of out-of-class work">
+       <created>1686076806949</created>
+@@ -213,7 +208,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1688028593382</updated>
+     </task>
+-    <option name="localTasksCounter" value="7" />
++    <task id="LOCAL-00007" summary="Week_4_Less_8b_RefactoringUsing_JavaOOP_v1.0">
++      <created>1688152532881</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1688152532881</updated>
++    </task>
++    <option name="localTasksCounter" value="8" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -241,6 +243,7 @@
+     <MESSAGE value="HW_7c_Java_OOP_v3" />
+     <MESSAGE value="HW_7c_Java_OOP_v3.1" />
+     <MESSAGE value="HW_7c_Java_OOP_v3.2" />
+-    <option name="LAST_COMMIT_MESSAGE" value="HW_7c_Java_OOP_v3.2" />
++    <MESSAGE value="Week_4_Less_8b_RefactoringUsing_JavaOOP_v1.0" />
++    <option name="LAST_COMMIT_MESSAGE" value="Week_4_Less_8b_RefactoringUsing_JavaOOP_v1.0" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/test/java/testcases/validDrpDwnTCntntTest.java
+===================================================================
+diff --git a/src/test/java/testcases/validDrpDwnTCntntTest.java b/src/test/java/testcases/validDrpDwnTCntntTest.java
+new file mode 100644
+--- /dev/null	
++++ b/src/test/java/testcases/validDrpDwnTCntntTest.java	
+@@ -0,0 +1,58 @@
++package testcases;
++
++import org.openqa.selenium.By;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.support.ui.Select;
++import org.testng.annotations.Test;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class validDrpDwnTCntntTest extends BaseTest{
++
++
++
++    @Test
++    public void openSignUpPage () throws InterruptedException{
++
++        homePage.clickSignUpBtn();
++    }
++
++
++    @Test
++    public void dropdownOptions () throws InterruptedException{
++
++        homePage.clickSignUpBtn();
++        signUpPage.showDropDownOptions();
++        }
++
++
++
++/*
++        @Test
++    public void dropdown () throws InterruptedException{
++
++        homePage.clickSignUpBtn();
++        WebElement profDropDown;
++        profDropDown = driver.findElement(By.id("job-title"));
++
++        List<WebElement> option = new ArrayList<>();
++        Select profDrpDwn = new Select(profDropDown);
++        option = profDrpDwn.getOptions();
++
++        for (int i = 0; i < option.size(); i++) {
++            System.out.println(option.get(i).getText());
++        }
++*/
++
++
++}
++
++
++
++
++
++
++
++
++
+Index: src/main/java/pageObjects/HomePage.java
+===================================================================
+diff --git a/src/main/java/pageObjects/HomePage.java b/src/main/java/pageObjects/HomePage.java
+--- a/src/main/java/pageObjects/HomePage.java	
++++ b/src/main/java/pageObjects/HomePage.java	
+@@ -12,6 +12,8 @@
+     //locators
+     public String WebsiteURL = "https://test.my-fork.com/";
+     public String signInBtn = "//a[@class='menu-item log-in-button']";
++    public String signUpBtn = "//div[@class='menu']/a[3]";
++
+ 
+     public void clickSignIn(){
+         // Open website + full screen
+@@ -20,4 +22,13 @@
+         driver.findElement(By.xpath(signInBtn)).click();
+     }
+ 
++    public void clickSignUpBtn (){
++        driver.get(WebsiteURL);
++        driver.manage().window().maximize();
++        driver.findElement(By.xpath(signUpBtn)).click();
++    }
++
++
++
++
+ }
+Index: src/test/java/testcases/BaseTest.java
+===================================================================
+diff --git a/src/test/java/testcases/BaseTest.java b/src/test/java/testcases/BaseTest.java
+--- a/src/test/java/testcases/BaseTest.java	
++++ b/src/test/java/testcases/BaseTest.java	
+@@ -6,12 +6,14 @@
+ import org.testng.annotations.BeforeMethod;
+ import pageObjects.HomePage;
+ import pageObjects.SignInPage;
++import pageObjects.SignUpPage;
+ 
+ public class BaseTest {
+ 
+     public ChromeDriver driver;
+     HomePage homePage;
+     SignInPage signInPage;
++    SignUpPage signUpPage;
+ 
+ 
+ 
+@@ -25,6 +27,7 @@
+ 
+         homePage = new HomePage(driver);
+         signInPage = new SignInPage(driver);
++        signUpPage = new SignUpPage(driver);
+ 
+     }
+ 
+Index: src/main/java/pageObjects/SignInPage.java
+===================================================================
+diff --git a/src/main/java/pageObjects/SignInPage.java b/src/main/java/pageObjects/SignInPage.java
+--- a/src/main/java/pageObjects/SignInPage.java	
++++ b/src/main/java/pageObjects/SignInPage.java	
+@@ -8,6 +8,7 @@
+ 
+ 
+     public SignInPage (WebDriver driver) {
++
+         super(driver);
+     }
+ 

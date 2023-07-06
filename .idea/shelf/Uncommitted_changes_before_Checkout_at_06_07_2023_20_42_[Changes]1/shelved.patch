@@ -1,0 +1,47 @@
+Index: src/main/java/pageObjects/SignUpPage.java
+===================================================================
+diff --git a/src/main/java/pageObjects/SignUpPage.java b/src/main/java/pageObjects/SignUpPage.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/pageObjects/SignUpPage.java	
+@@ -0,0 +1,39 @@
++package pageObjects;
++
++import org.openqa.selenium.By;
++import org.openqa.selenium.WebDriver;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.support.ui.Select;
++
++import java.util.ArrayList;
++import java.util.List;
++
++public class SignUpPage extends BaseMain {
++
++    public SignUpPage(WebDriver driver) {
++        super(driver);
++    }
++
++
++    // locators
++    public String SignUpBtn = "//div[@class='menu']/a[3]";
++    public String DropDown = "//select[@id='job-title']";
++
++
++
++
++
++    public void showDropDownOptions() {
++        WebElement profDropDown;
++        profDropDown = driver.findElement(By.id("job-title"));
++        List<WebElement> option = new ArrayList<>();
++        Select profDrpDwn = new Select(profDropDown);
++        option = profDrpDwn.getOptions();
++        int listSize = option.size();
++        for (int i = 0; i < listSize; i++) {
++            System.out.println(option.get(i).getText());
++        }
++
++
++    }
++}
+\ No newline at end of file
